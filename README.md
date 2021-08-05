@@ -42,10 +42,10 @@ Visit the Project Page to learn more - [Click Here](https://www.codewithmukesh.c
 1. Clone this Repository and Extract it to a Folder.
 3. Change the Connection Strings for the Application and Identity in the WebApi/appsettings.json - (WebApi Project)
 2. Run the following commands on Powershell in the WebApi Projecct's Directory.
-- dotnet restore
-- dotnet ef database update -Context ApplicationDbContext
-- dotnet ef database update -Context IdentityContext
-- dotnet run (OR) Run the Solution using Visual Studio 2019
+- `dotnet restore`
+- `dotnet ef database update -c ApplicationDbContext`
+- `dotnet ef database update -c IdentityContext`
+- `dotnet run` (OR) Run the Solution using Visual Studio 2019
 
 Check out my [blog](https://www.codewithmukesh.com) or say [Hi on Twitter!](https://twitter.com/codewithmukesh)
 
